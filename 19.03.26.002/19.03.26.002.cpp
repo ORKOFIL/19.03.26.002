@@ -132,11 +132,12 @@ int main()
     printDuplicates(copyV1);
 
     outputJSON(jout, sum2, sum3, duplicatesCount, v1, v2);
-
+    
     out.close();
     jout.close();
 
     cout << "\nData saved to data.txt and data.json" << endl;
 
     return 0;
+    //test
 }
